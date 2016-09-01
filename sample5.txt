@@ -1,0 +1,123 @@
+    //  my program is supposed to print 'CS5348' in the first line and my netID in the second line.
+
+1   //  load 10
+10
+27  //  push 10 to user stack
+
+    //  print 'C'
+1   //  load 67
+67
+9   //  put 2
+2
+
+    //  print 'S'
+14  //  copy 67 to X
+1   //  load 16
+16
+10  //  add X
+9   //  put 2
+2
+
+    //  print '5'
+2   //  load from 116
+116
+9   //  put 1
+1
+
+    //  print '3'
+3   //  load from address in 117
+117
+9   //  put 1
+1
+
+    //  print '4'
+1   //  load 1
+1
+14  //  copy 1 to X
+4   //  load 126 + X
+126
+9   //  put 1
+1
+
+    //  print '8'
+1   //  load 2
+2
+16  //  copy 2 to Y
+5   //  load 126 + Y
+126
+9   //  put 2
+1
+
+    //  print line break
+28  //  pop 10
+9   //  put 2
+2
+27  //  push 10
+
+29  //  system interrupt
+
+    //  print line break
+28  //  pop 10
+9   //  put 2
+2
+
+50  //  end
+
+.116
+5
+126
+
+.126
+3
+4
+8
+
+.1000
+30
+
+.1500
+1   //  load 9
+9
+14  //  copy 9 to X
+
+    //  push 9 values to system stack
+1
+48
+27
+1
+51
+27
+1
+49
+27
+1
+48
+27
+1
+53
+27
+1
+49
+27
+1
+113
+27
+1
+120
+27
+1
+122
+27
+
+    //  pop and put 2
+28
+9
+2
+
+    //  do pop and put until X reaches 0
+26
+15
+22
+1530
+
+30  //  return
